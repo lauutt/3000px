@@ -14,8 +14,8 @@ def hacer_cuadrada(imagen):
 def escalar_imagen(imagen, tamaño_destino):
     return imagen.resize((tamaño_destino, tamaño_destino), Image.LANCZOS)
 
-st.title("Procesador de Imágenes")
-st.write("Sube una imagen para recortarla al centro y escalarla a 3000x3000 píxeles.")
+st.title("Procesador de Imágenes de Pontaco Software Company ")
+st.write("Subí una imagen para recortarla al centro y escalarla a 3000x3000 píxeles.")
 
 uploaded_file = st.file_uploader("Elige una imagen", type=["jpg", "jpeg", "png"])
 
